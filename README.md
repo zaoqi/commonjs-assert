@@ -7,6 +7,8 @@ This module is used for writing unit tests for your applications, you can access
 It aims to be fully compatibe with the [node.js assert module](http://nodejs.org/api/assert.html), same API and same behavior, just adding support for web browsers.
 The API and code may contain traces of the [CommonJS Unit Testing 1.0 spec](http://wiki.commonjs.org/wiki/Unit_Testing/1.0) which they were based on, but both have evolved significantly since then.
 
+> `assert` supports modern browsers, and IE versions 9 and up. For Internet Explorer 8 support, the shim and sham versions of [es5-shim](https://github.com/es-shims/es5-shim) are required.
+
 A `strict` and a `legacy` mode exist, while it is recommended to only use `strict mode`.
 
 ## Strict mode
